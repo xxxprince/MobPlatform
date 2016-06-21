@@ -1,0 +1,12 @@
+JDK1.8
+
+Mysql
+Redis(not required)
+
+ECC/CRM for RFC
+NWGW/olingo for OData
+cxf for webservice
+mysql/oracle for DBMS
+
+bootstrap3.5
+

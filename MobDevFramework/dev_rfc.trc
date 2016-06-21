@@ -1,0 +1,109 @@
+
+**** ERROR file opened at 20160615 092825 中国标准时间, SAP-REL 640,0,377 RFC-VER 3  MT-SL
+T:3680 Error in program 'SAPCPIC': ======> Open file 'C:\windows\sapmsg.ini' failed
+
+**** ERROR file opened at 20160615 092926 中国标准时间, SAP-REL 640,0,377 RFC-VER 3  MT-SL
+T:4444 Error in program 'SAPCPIC': ======> Open file 'C:\windows\sapmsg.ini' failed
+
+**** ERROR file opened at 20160615 100705 中国标准时间, SAP-REL 640,0,377 RFC-VER 3  MT-SL
+T:8836 Error in program 'SAPCPIC': ======> Open file 'C:\windows\sapmsg.ini' failed
+
+**** ERROR file opened at 20160615 103326 中国标准时间, SAP-REL 640,0,377 RFC-VER 3  MT-SL
+T:4668 Error in program 'SAPCPIC': ======> Open file 'C:\windows\sapmsg.ini' failed
+
+**** ERROR file opened at 20160615 103537 中国标准时间, SAP-REL 640,0,377 RFC-VER 3  MT-SL
+T:8540 Error in program 'SAPCPIC': ======> Open file 'C:\windows\sapmsg.ini' failed
+
+**** ERROR file opened at 20160615 103543 中国标准时间, SAP-REL 640,0,377 RFC-VER 3  MT-SL
+T:3496 Error in program 'SAPCPIC': ======> Open file 'C:\windows\sapmsg.ini' failed
+
+**** ERROR file opened at 20160615 103834 中国标准时间, SAP-REL 640,0,377 RFC-VER 3  MT-SL
+T:5712 Error in program 'SAPCPIC': ======> No entry for 'CRD' found in 'C:\windows\sapmsg.ini'
+
+**** ERROR file opened at 20160615 104255 中国标准时间, SAP-REL 640,0,377 RFC-VER 3  MT-SL
+T:7752 Error in program 'SAPCPIC': ======> No entry for 'CRD' found in 'C:\windows\sapmsg.ini'
+
+**** ERROR file opened at 20160615 104641 中国标准时间, SAP-REL 640,0,377 RFC-VER 3  MT-SL
+T:944 Error in program 'SAPCPIC': ======> Open file 'C:\windows\sapmsg.ini' failed
+
+**** ERROR file opened at 20160615 105017 中国标准时间, SAP-REL 640,0,377 RFC-VER 3  MT-SL
+T:9056 Error in program 'SAPCPIC': ======> Open file 'C:\windows\sapmsg.ini' failed
+
+**** ERROR file opened at 20160615 111701 中国标准时间, SAP-REL 640,0,377 RFC-VER 3  MT-SL
+T:1956 Error in program 'javaw': ======> Connect to message server failed
+Connect_PM  MSHOST=10.0.13.51, R3NAME=CRD, GROUP=PUBLIC
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       service 'sapmsCRD' unknown
+TIME        Wed Jun 15 11:17:01 201
+RELEASE     640
+COMPONENT   NI (network interface)
+VERSION     37
+RC          -3
+MODULE      ninti.c
+LINE        508
+DETAIL      NiPGetServByName2: service 'sapmsCRD' not found
+SYSTEM CALL getservbyname_r
+COUNTER     1
+
+
+**** ERROR file opened at 20160615 111800 中国标准时间, SAP-REL 640,0,377 RFC-VER 3  MT-SL
+T:9072 Error in program 'javaw': ======> Connect to message server failed
+Connect_PM  MSHOST=10.0.13.51, R3NAME=CRD, GROUP=PUBLIC
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       service 'sapmsCRD' unknown
+TIME        Wed Jun 15 11:18:00 201
+RELEASE     640
+COMPONENT   NI (network interface)
+VERSION     37
+RC          -3
+MODULE      ninti.c
+LINE        508
+DETAIL      NiPGetServByName2: service 'sapmsCRD' not found
+SYSTEM CALL getservbyname_r
+COUNTER     1
+
+
+**** ERROR file opened at 20160615 112050 中国标准时间, SAP-REL 640,0,377 RFC-VER 3  MT-SL
+T:3548 Error in program 'javaw': ======> Connect to message server failed
+Connect_PM  MSHOST=10.0.13.51, R3NAME=CRD, GROUP=PUBLIC
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       partner not reached (host 10.0.13.51, service sapmsCRD)
+TIME        Wed Jun 15 11:20:50 201
+RELEASE     640
+COMPONENT   NI (network interface)
+VERSION     37
+RC          -10
+MODULE      nixxi_r.cpp
+LINE        8840
+DETAIL      NiPConnect2
+SYSTEM CALL SiPeekPendConn
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     1
+
+
+**** ERROR file opened at 20160615 112409 中国标准时间, SAP-REL 640,0,377 RFC-VER 3  MT-SL
+T:2808 Error in program 'javaw': ======> Connect to message server failed
+Connect_PM  MSHOST=10.0.13.51, R3NAME=CRD, GROUP=PUBLIC
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       partner not reached (host 10.0.13.51, service sapmsCRD)
+TIME        Wed Jun 15 11:24:09 201
+RELEASE     640
+COMPONENT   NI (network interface)
+VERSION     37
+RC          -10
+MODULE      nixxi_r.cpp
+LINE        8840
+DETAIL      NiPConnect2
+SYSTEM CALL SiPeekPendConn
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     1
+
+
+**** ERROR file opened at 20160615 112547 中国标准时间, SAP-REL 640,0,377 RFC-VER 3  MT-SL
+T:6964 Error in program 'SAPCPIC': ======> Open file 'C:\windows\sapmsg.ini' failed
